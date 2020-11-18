@@ -1,0 +1,86 @@
+html, body{
+  height: 100vh;
+}
+.container{
+height: 100vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: space-evenly;
+}
+.box1{
+  width: 100px;
+  height: 100px;
+  background-color:#dfe1e7;
+  border-top: solid;
+  border-width: 1px;
+  border-color: #687291;
+  text-align: center;
+}
+.box2{
+  width: 100px;
+  height: 100px;
+  background-color: #eeeff2;
+  border-top: solid;
+  border-width: 1px;
+  border-color: #687291;
+  text-align: center;
+}
+.box3{
+  width: 100px;
+  height: 100px;
+  background-color: #dfe1e7;
+  border-top: solid;
+  border-width: 1px;
+  border-color: #687291;
+  text-align: center;
+}
+.box4{
+  width: 100px;
+  height: 100px;
+  background-color: #eeeff2;
+  border-top: solid;
+  border-width: 1px;
+  border-color: #687291;
+  text-align: center;
+}
+.box5{
+  width: 100px;
+  height: 100px;
+  background-color: #dfe1e7;
+  text-align: center;
+  border-top: solid;
+  border-color: #687291;
+  border-width: 1px;
+}
+.box6{
+  width: 100px;
+  height: 100px;
+  background-color: #687291;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+}
+p{
+  font-size:40px;
+  font-family: Tahoma;
+}
+.box1 p{
+  margin: 7px 30px 30px 32px;
+}
+.box2 p{
+  margin: 7px 30px 30px 32px;
+}
+.box3 p{
+  margin: 7px 30px 30px 32px;
+}
+.box4 p{
+  margin: 7px 30px 30px 32px;
+}
+.box5 p{
+  margin: 7px 30px 30px 32px;
+}
+ .box6 p{
+  margin: 28px 28px 28px 28px;
