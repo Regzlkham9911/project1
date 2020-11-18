@@ -1,0 +1,178 @@
+.container{
+ max-width:960px;
+ height: 100%;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ align-items:center;
+ justify-content:space-between ;
+}
+.box1{
+  width: 100px;
+  height: 150px;
+  background-color: rgba(255, 99, 71, 0.5);
+  margin:10px;
+  box-shadow: 10px 10px 5px  grey ;
+  -webkit-transition: width 2s, height 2s; 
+  transition: width 2s, height 2s;
+  text-align: center;
+  border-left: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  margin:10px;
+}
+.box1:hover {
+  opacity: 1;
+  background-color: yellow;
+  color:goldenrod;
+  width: 200px;
+  height: 200px;
+  animation-name: HAHA;
+  animation-duration: 4s;
+}
+.box2{
+  width: 100px;
+  height: 150px;
+  background-color: rgba(255, 99, 71, 0.5);
+  margin:10px;
+  box-shadow: 10px 10px 5px  grey ;
+  -webkit-transition: width 2s, height 2s; 
+  transition: width 2s, height 2s;
+  text-align: center;
+  border-left: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  margin:10px;
+}
+.box2:hover {
+  opacity: 1;
+  background-color:orange;
+  color:goldenrod;
+  width: 200px;
+  height: 200px;
+  animation-name: HAHA;
+  animation-duration: 4s;
+}
+.box3{
+  width: 100px;
+  height: 150px;
+  background-color: rgba(255, 99, 71, 0.5);
+  margin:10px;
+  box-shadow: 10px 10px 5px  grey ;
+  -webkit-transition: width 2s, height 2s; 
+  transition: width 2s, height 2s;
+  text-align: center;
+  border-left: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  margin:10px;
+}
+.box3:hover {
+  opacity: 1;
+  background-color:purple;
+  color:goldenrod;
+  width: 200px;
+  height: 200px;
+  animation-name: HAHA;
+  animation-duration: 4s;
+}
+.box4{
+  width: 100px;
+  height: 150px;
+  background-color: rgba(255, 99, 71, 0.5);
+  margin:10px;
+  box-shadow: 10px 10px 5px  grey ;
+  -webkit-transition: width 2s, height 2s; 
+  transition: width 2s, height 2s;
+  text-align: center;
+  border-left: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  margin:10px;
+}
+.box4:hover {
+  opacity: 1;
+  background-color:green;
+  color:goldenrod;
+  width: 200px;
+  height: 200px;
+  animation-name: HAHA;
+  animation-duration: 4s;
+}
+.box5{
+  width: 100px;
+  height: 150px;
+  background-color: rgba(255, 99, 71, 0.5);
+  margin:10px;
+  box-shadow: 10px 10px 5px  grey ;
+  -webkit-transition: width 2s, height 2s; 
+  transition: width 2s, height 2s;
+  text-align: center;
+  border-left: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  margin:10px;
+}
+.box5:hover {
+  opacity: 1;
+  background-color:red;
+  color:goldenrod;
+  width: 200px;
+  height: 200px;
+  animation-name: HAHA;
+  animation-duration: 4s;
+
+}
+.box6{
+  width: 100px;
+  height: 150px;
+  background-color: rgba(255, 99, 71, 0.5);
+  box-shadow: 10px 10px 5px grey;
+  -webkit-transition: width 2s, height 2s; 
+  transition: width 2s, height 2s;
+  text-align: center;
+  align-self: flex-end;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-left: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  margin:10px;
+}
+.box6:hover {
+  opacity: 1;
+  background-color:pink;
+  color:goldenrod;
+  width: 100px;
+  height: 150px;
+  animation-name: HOHO;
+  animation-duration: 3s;
+}
+p{
+  font-size:40px;
+  font-family: Tahoma;
+}
+
+@keyframes HOHO {
+            25% {
+                transform: rotate(15deg);
+            }
+            20% {
+                background-color: red;
+                font-weight: 900;
+                transform: rotate(20deg);
+            }
+            40% {
+                transform: rotate(-20deg);
+            }
+            60% {
+                transform: rotate(0deg);
+                background-color: yellow;
+            }
+        }
+@keyframes HAHA{
+  25% {
+                transform: rotate(360deg);
+            }
+}
