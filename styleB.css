@@ -1,0 +1,141 @@
+body{
+  display: inline-block;
+  height: 100%;
+}
+.container{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ align-items: center;
+ justify-content: flex-start;
+}
+.box1{
+  width: 100px;
+  height: 150px;
+  background-color: #eeeff2;
+  border-left: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  margin:10px;
+}
+.box1:hover {
+  background-color:yellow;
+  color:goldenrod;
+}
+.box2{
+  width: 100px;
+  height: 150px;
+  background-color: #eeeff2;
+  border-left: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  margin:10px;
+
+}
+.box2:hover {
+  background-color:yellow;
+  color:goldenrod;
+}
+.box3{
+  width: 100px;
+  height: 150px;
+  background-color: #eeeff2;
+  border-left: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  margin:10px;
+
+}
+.box3:hover {
+  background-color:yellow;
+  color:goldenrod;
+}
+.box4{
+  width: 100px;
+  height: 150px;
+  background-color: #eeeff2;
+  border-left: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  margin:10px;
+}
+.box4:hover {
+  background-color:yellow;
+  color:goldenrod;
+}
+.box5{
+  width: 100px;
+  height: 150px;
+  background-color: #eeeff2;
+  border-left: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  margin:10px;
+}
+.box5:hover {
+  background-color:yellow;
+  color:goldenrod;
+}
+.box6{
+  width: 100px;
+  height: 150px;
+  background-color:#eeeff2  ;
+  border-left: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  align-self: flex-end;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  
+}
+.box6:hover {
+  background-color:yellow;
+  color:goldenrod;
+}
+.text{
+  margin-right: 50px;
+  margin-bottom:100px;
+}
+p{
+  font-size:40px;
+  font-family: Tahoma;
+  margin: 10px,10px, 50px,100px;
+}
+.box1 p{
+  margin: 5px 10px 100px;
+}
+.box2 p{
+  margin: 5px 10px 100px;
+}
+.box3 p{
+  margin: 5px 10px 100px;
+}
+.box4 p{
+margin: 5px 10px 100px;
+}
+.box5 p{
+  margin: 5px 10px 100px;
+}
+ .box6 p{
+  margin: 5px 10px 100px;
+
+@keyframes example {
+            15% {
+                transform: rotate(15deg);
+            }
+            10% {
+                background-color: red;
+                font-weight: 900;
+                transform: rotate(20deg);
+            }
+            30% {
+                transform: rotate(-20deg);
+            }
+            50% {
+                transform: rotate(0deg);
+                background-color: yellow;
+            }
+        }
